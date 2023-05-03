@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('base/main.css');
+@import url('base/media.css');
+
+@import url('layout/footer.css');
+@import url('layout/header.css');
+
+@import url('pages/a-propos.css');
+@import url('pages/accueil.css');
+@import url('pages/classement.css');
+@import url('pages/fiche-tournois.css');
+@import url('pages/fiche.css');
+@import url('pages/jeux.css');
+@import url('pages/politique.css');
+@import url('pages/tournois.css');
+@import url('utils/variables.css');
+@import url('vendors/normalize.css');
