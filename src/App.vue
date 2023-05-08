@@ -10,16 +10,19 @@
     <div>
         <h2>Jeux associés</h2>
         <div><img>
-            <h5></h5>
+            <h5>League of legends</h5>
         </div>
         <div><img>
-            <h5></h5>
+            <h5>Valorant</h5>
         </div>
         <div><img>
-            <h5></h5>
+            <h5>Super Smash Bros Ultimate</h5>
         </div>
         <div><img>
-            <h5></h5>
+            <h5>Street Fighter</h5>
+        </div>
+        <div><img>
+            <h5>Overwatch 2</h5>
         </div>
     </div>
 
@@ -28,9 +31,37 @@
         <!--carte-->
         <div><img>
             <div>
-                <h6></h6>
+                <h6>Inscription ouverte</h6>
             </div>
-            <h4></h4>
+            <h4>Battle Royale Championship</h4>
+            <h6>League of legends 5V5</h6>
+            <img>
+            <h6>23 Juin 2023</h6>
+            <img>
+            <h6>Lille</h6>
+            <img>
+            <h6>200€</h6>
+        </div>
+        <!--carte-->
+        <div><img>
+            <div>
+                <h6>Inscription ouverte</h6>
+            </div>
+            <h4>Battle Royale Championship</h4>
+            <h6>Street fighter</h6>
+            <img>
+            <h6></h6>
+            <img>
+            <h6></h6>
+            <img>
+            <h6></h6>
+        </div>
+        <!--carte-->
+        <div><img>
+            <div>
+                <h6>Inscription ouverte</h6>
+            </div>
+            <h4>Battle Royale Championship</h4>
             <h6></h6>
             <img>
             <h6></h6>
@@ -42,9 +73,9 @@
         <!--carte-->
         <div><img>
             <div>
-                <h6></h6>
+                <h6>Inscription ouverte</h6>
             </div>
-            <h4></h4>
+            <h4>Battle Royale Championship</h4>
             <h6></h6>
             <img>
             <h6></h6>
@@ -56,9 +87,9 @@
         <!--carte-->
         <div><img>
             <div>
-                <h6></h6>
+                <h6>Inscription ouverte</h6>
             </div>
-            <h4></h4>
+            <h4>Battle Royale Championship</h4>
             <h6></h6>
             <img>
             <h6></h6>
@@ -70,9 +101,9 @@
         <!--carte-->
         <div><img>
             <div>
-                <h6></h6>
+                <h6>Inscription ouverte</h6>
             </div>
-            <h4></h4>
+            <h4>Battle Royale Championship</h4>
             <h6></h6>
             <img>
             <h6></h6>
@@ -84,9 +115,9 @@
         <!--carte-->
         <div><img>
             <div>
-                <h6></h6>
+                <h6>Inscription ouverte</h6>
             </div>
-            <h4></h4>
+            <h4>Battle Royale Championship</h4>
             <h6></h6>
             <img>
             <h6></h6>
@@ -98,9 +129,9 @@
         <!--carte-->
         <div><img>
             <div>
-                <h6></h6>
+                <h6>Inscription ouverte</h6>
             </div>
-            <h4></h4>
+            <h4>Battle Royale Championship</h4>
             <h6></h6>
             <img>
             <h6></h6>
@@ -112,37 +143,9 @@
         <!--carte-->
         <div><img>
             <div>
-                <h6></h6>
+                <h6>Inscription ouverte</h6>
             </div>
-            <h4></h4>
-            <h6></h6>
-            <img>
-            <h6></h6>
-            <img>
-            <h6></h6>
-            <img>
-            <h6></h6>
-        </div>
-        <!--carte-->
-        <div><img>
-            <div>
-                <h6></h6>
-            </div>
-            <h4></h4>
-            <h6></h6>
-            <img>
-            <h6></h6>
-            <img>
-            <h6></h6>
-            <img>
-            <h6></h6>
-        </div>
-        <!--carte-->
-        <div><img>
-            <div>
-                <h6></h6>
-            </div>
-            <h4></h4>
+            <h4>Battle Royale Championship</h4>
             <h6></h6>
             <img>
             <h6></h6>
