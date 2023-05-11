@@ -1,9 +1,10 @@
 <template>
         <div>
             <img>
-            <h1>Tournois Lol Championship</h1>
+            <div><h1>Tournois Lol Championship</h1></div>
             <img>
             <img>
+            <button>REJOINDRE</button>
         </div>
         <div>
             <h2>Informations générales</h2>
@@ -45,6 +46,45 @@
                     <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
                     <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
                 </ul>
+            </div>
+        </div>
+        <div>
+            <h2>Format</h2>
+            <div>
+                <img>
+                <h3>Jeux</h3>
+                <p>League of legends, EUNE</p>
+            </div>
+            <div>
+                <img>
+                <h3>Jeux</h3>
+                <p>League of legends, EUNE</p>
+            </div>
+            <div>
+                <img>
+                <h3>Jeux</h3>
+                <p>League of legends, EUNE</p>
+            </div>
+            <div>
+                <img>
+                <h3>Jeux</h3>
+                <p>League of legends, EUNE</p>
+            </div>
+            <div>
+                <img>
+                <h3>Jeux</h3>
+                <p>League of legends, EUNE</p>
+            </div>
+            <div>
+                <img>
+                <h3>Jeux</h3>
+                <p>League of legends, EUNE</p>
+            </div>
+            <div>
+                <img>
+                <p>1er 200€</p>
+                <p>2éme 100€</p>
+                <p>3éme 50€</p>
             </div>
         </div>
         <div>
