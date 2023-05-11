@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<template>
     <div>
         <img>
-        <h1>Valorant</h1>
+        <h1>League of Legends</h1>
     </div>
     <div>
         <h2>Tournois disponible</h2>
@@ -17,37 +9,37 @@
             <img>
             <time> datatime"2023-06-10"</time>
             <h5>Battle Royale Championship</h5>
-            <h6>Valorant . Unranked - radiant . 5V5 . Paris . 200€</h6>
+            <h6>League of legends . Unranked . Challenger . 5V5 . Lille . 200€</h6>
         </div>
         <div>
             <img>
             <time> datatime"2023-06-10"</time>
             <h5>Battle Royale Championship</h5>
-            <h6>Valorant . Unranked - radiant . 5V5 . Paris . 200€</h6>
+            <h6>League of legends . Unranked . Challenger . 5V5 . Lille . 200€</h6>
         </div>
         <div>
             <img>
             <time> datatime"2023-06-10"</time>
             <h5>Battle Royale Championship</h5>
-            <h6>Valorant . Unranked - radiant . 5V5 . Paris . 200€</h6>
+            <h6>League of legends . Unranked . Challenger . 5V5 . Lille . 200€</h6>
         </div>
         <div>
             <img>
             <time> datatime"2023-06-10"</time>
             <h5>Battle Royale Championship</h5>
-            <h6>Valorant . Unranked - radiant . 5V5 . Paris . 200€</h6>
+            <h6>League of legends . Unranked . Challenger . 5V5 . Lille . 200€</h6>
         </div>
         <div>
             <img>
             <time> datatime"2023-06-10"</time>
             <h5>Battle Royale Championship</h5>
-            <h6>Valorant . Unranked - radiant . 5V5 . Paris . 200€</h6>
+            <h6>League of legends . Unranked . Challenger . 5V5 . Lille . 200€</h6>
         </div>
         <div>
             <img>
             <time> datatime"2023-06-10"</time>
             <h5>Battle Royale Championship</h5>
-            <h6>Valorant . Unranked - radiant . 5V5 . Paris . 200€</h6>
+            <h6>League of legends . Unranked . Challenger . 5V5 . Lille . 200€</h6>
         </div>
         <button>VOIR PLUS</button>
     </div>
@@ -56,5 +48,4 @@
         <!--carte-->
         <button>VOIR PLUS</button>
     </div>
-</body>
-</html>
+</template>
