@@ -9,8 +9,7 @@ import Menu from '../public/img/Icones-interface/icones/Menu.vue'
 <template>
     <footer>
         <nav>
-           <Logo/> 
-           <Menu/>
+           <p>ppp</p>
         </nav>
     </footer>
 </template>
