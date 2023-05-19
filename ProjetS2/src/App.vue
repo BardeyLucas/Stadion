@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import footer from './components/footer.vue'
-import header from './components/header.vue'
+import { RouterView } from 'vue-router'
+import footer from './components/header.vue'
+import header from './components/footer.vue'
 </script>
 <template>
+  <Header />
   <body>
     <h1>Carte des tournois près de chez vous</h1>
 
@@ -191,4 +192,5 @@ import header from './components/header.vue'
       <button>Abonnement premium</button>
     </div>
   </body>
+  <Footer />
 </template>
