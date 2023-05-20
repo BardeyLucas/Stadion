@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer base{
+    h1{
+        @apply text-5xl font-title; 
+    }
+    h2{
+        @apply text-3xl font-lato;
+    }
+    h3{
+        @apply text-2xl font-lato;
+    }
+    Button{
+        @apply text-2xl font-button;
+    }
+    .s{
+        @apply text-base font-button;
+    }
+    Body{
+        @apply text-base font-lato;
+    }
+    .Bold{
+        @apply text-base font-lato;
+    }
+    legend{
+        @apply text-xs font-lato;
+    }
+}
