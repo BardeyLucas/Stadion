@@ -1,11 +1,12 @@
+<script setup lang="ts">
+import { RouterView } from 'vue-router'
+import ArticleHero from '@/components/Article-hero.vue';
+import ProfilCard from '@/components/Profil-Card.vue'
+</script>
 <template>
-        <div>
-            <img>
-            <div><h1>Tournois Lol Championship</h1></div>
-            <img>
+        <ArticleHero/>
             <img>
             <button>REJOINDRE</button>
-        </div>
         <div>
             <h2>Informations générales</h2>
             <div>
@@ -57,31 +58,32 @@
             </div>
             <div>
                 <img>
-                <h3>Jeux</h3>
-                <p>League of legends, EUNE</p>
+                <h3>Date</h3>
+                <p>25 juin 2023, 10h00</p>
             </div>
             <div>
                 <img>
-                <h3>Jeux</h3>
-                <p>League of legends, EUNE</p>
+                <h3>Taille d'équipe</h3>
+                <p>5v5</p>
             </div>
             <div>
                 <img>
-                <h3>Jeux</h3>
-                <p>League of legends, EUNE</p>
+                <h3>Rang</h3>
+                <p>Unranked - challenger</p>
             </div>
             <div>
                 <img>
-                <h3>Jeux</h3>
-                <p>League of legends, EUNE</p>
+                <h3>Format</h3>
+                <p>Élimination directe</p>
             </div>
             <div>
                 <img>
-                <h3>Jeux</h3>
-                <p>League of legends, EUNE</p>
+                <h3>Inscription</h3>
+                <p>Accès gratuit</p>
             </div>
             <div>
                 <img>
+                <h3>Récompenses</h3>
                 <p>1er 200€</p>
                 <p>2éme 100€</p>
                 <p>3éme 50€</p>
@@ -89,7 +91,10 @@
         </div>
         <div>
             <h2>Inscrivez vous à d’autres tournois</h2>
-            <!--Incerer les 4 cartes-->
+            <ProfilCard/>
+            <ProfilCard/>
+            <ProfilCard/>
+            <ProfilCard/>
             <button>VOIR PLUS</button>
         </div>
 </template>
