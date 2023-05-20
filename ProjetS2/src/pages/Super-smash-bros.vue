@@ -1,51 +1,25 @@
+<script setup lang="ts">
+import { RouterView } from 'vue-router'
+import ArticleHero from '@/components/Article-hero.vue';
+import ClassCardTournois from '@/components/Class-Card-Tournois.vue';
+import ProfilCard from '@/components/Profil-Card.vue'
+</script>
 <template>
-    <div>
-        <img>
-        <h1>Super Smash Bros Ultimate</h1>
-    </div>
+        <ArticleHero/>
     <div>
         <h2>Tournois disponible</h2>
-        <div>
-            <img>
-            <time> datatime"2023-06-10"</time>
-            <h5>Battle Royale Championship</h5>
-            <h6>Super Smash Bros Ultimate . 1V1 . Lille . 200€</h6>
-        </div>
-        <div>
-            <img>
-            <time> datatime"2023-06-10"</time>
-            <h5>Battle Royale Championship</h5>
-            <h6>Super Smash Bros Ultimate . 1V1 . Lille . 200€</h6>
-        </div>
-        <div>
-            <img>
-            <time> datatime"2023-06-10"</time>
-            <h5>Battle Royale Championship</h5>
-            <h6>Super Smash Bros Ultimate . 1V1 . Lille . 200€</h6>
-        </div>
-        <div>
-            <img>
-            <time> datatime"2023-06-10"</time>
-            <h5>Battle Royale Championship</h5>
-            <h6>Super Smash Bros Ultimate . 1V1 . Lille . 200€</h6>
-        </div>
-        <div>
-            <img>
-            <time> datatime"2023-06-10"</time>
-            <h5>Battle Royale Championship</h5>
-            <h6>Super Smash Bros Ultimate . 1V1 . Lille . 200€</h6>
-        </div>
-        <div>
-            <img>
-            <time> datatime"2023-06-10"</time>
-            <h5>Battle Royale Championship</h5>
-            <h6>Super Smash Bros Ultimate . 1V1 . Lille . 200€</h6>
-        </div>
+        <ClassCardTournois/>
+        <ClassCardTournois/>
+        <ClassCardTournois/>
+        <ClassCardTournois/>
+        <ClassCardTournois/>
         <button>VOIR PLUS</button>
     </div>
     <div>
         <h2>Meilleur joueur</h2>
-        <!--carte-->
+            <ProfilCard/>
+            <ProfilCard/>
+            <ProfilCard/>
         <button>VOIR PLUS</button>
     </div>
 </template>
