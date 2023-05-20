@@ -1,3 +1,3 @@
 <template>
-    Template pour l'en-tête de page
+    Template pour le pied de page
 </template>

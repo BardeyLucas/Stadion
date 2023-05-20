@@ -1,9 +1,13 @@
+/**  @type {import('tailwindcss').Config} */
+
+const colors = require('tailwindcss/colors')
+
 export default {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     		colors: {
-          gold: '#E4B849',
-          white: "#FFFFFF",
+          Gold: '#E4B849',
+          White: "#FFFFFF",
           LightGray: "#DFDEDE",
           Gray:"#969595",
           DarkGray:"#434141",
@@ -15,7 +19,11 @@ export default {
         texte:['Lato', sans-serif],
         title:['Roboto', sans-serif]
         },
-    extend: {}
+    extend: {
+      gridTemplateColumns: {
+        principal: 'repeat(12, minmax (0, 80px))'
+      }
+    }
   },
   plugins: []
 }

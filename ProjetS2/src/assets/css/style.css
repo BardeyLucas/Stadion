@@ -27,3 +27,9 @@
         @apply text-xs font-lato;
     }
 }
+
+@layer components {
+    .grille {
+        @apply lg:grid lg:grid-cols-principal lg:justify-center lg:gap-20 px-5;
+    }
+}
