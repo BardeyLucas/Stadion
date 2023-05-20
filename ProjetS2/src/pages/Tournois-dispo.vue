@@ -1,9 +1,10 @@
+<script setup lang="ts">
+import { RouterView } from 'vue-router'
+import Hero from '@/components/Hero.vue';
+import ClassCardTournois from '@/components/Class-Card-Tournois.vue';
+</script>
 <template>
-   <div>
-        <h1>Tournois e-sport</h1>
-        <h3>Retrouvez tous les tournois disponible en France.</h3>
-        <h3>De League of legends, Super Smash Bros Ultimate, Valorant, Street Fighter à Overwatch 2</h3>
-   </div>
+<Hero/>
    <div>
         <h2>Prochains Tournois</h2>
         <div>
@@ -16,7 +17,39 @@
             <div>Filtres</div>
             <div><form><input type="search"></form><img></div>
         </div>
-        <!--les cards seront surement intégré séparément-->
-        <!--Contenu prévue : LOL*8 OVER*4 VAL*7 STE*4 SMB*7 MULT*4 -->
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
+          <ClassCardTournois/>
    </div>
 </template>
