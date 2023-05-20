@@ -1,9 +1,10 @@
+<script setup lang="ts">
+import { RouterView } from 'vue-router'
+import Hero from '@/components/Hero.vue';
+import ClassCardProfil from '@/components/Class-Card-Profil.vue';
+</script>
 <template>
-    <div>
-        <h1>Classement</h1>
-        <h3>Retrouvez tous les joueurs dans les différents classements.</h3>
-        <h3>De League of legends, Super Smash Bros Ultimate, Valorant, Street Fighter à Overwatch 2</h3>
-    </div>
+    <hero/>
     <div>
         <h2>Prochains Tournois</h2>
         <div>
@@ -16,6 +17,64 @@
             <div>Filtres</div>
             <div><form><input type="search"></form><img></div>
         </div>
-        <!--Le tableau sera a intégré-->
+        <div>
+            <p>#</p>
+            <p>UTILISATEUR</p>
+            <p>Tier</p>
+            <p>LP</p>
+            <p>Niveau</p>
+            <p> Champions plus utilisées</p>
+        </div>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <ClassCardProfil/>
+        <div>
+            <div></div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <p>...</p>
+            <div>50</div>
+            <div></div>
+        </div>
     </div>
 </template>
