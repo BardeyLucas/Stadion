@@ -2,159 +2,31 @@
 import { RouterView } from 'vue-router'
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
+import GameCard from './components/Game-Card.vue'
+import TournamentCard from './components/Tournament-Card.vue'
+import ProfilCard from './components/Profil-Card.vue'
 </script>
 <template>
   <Header/>
   <body>
     <h1>Carte des tournois près de chez vous</h1>
-
     <div>
       <h2>Jeux associés</h2>
-      <div><img>
-        <h5>League of legends</h5>
-      </div>
-      <div><img>
-        <h5>Valorant</h5>
-      </div>
-      <div><img>
-        <h5>Super Smash Bros Ultimate</h5>
-      </div>
-      <div><img>
-        <h5>Street Fighter</h5>
-      </div>
-      <div><img>
-        <h5>Overwatch 2</h5>
-      </div>
     </div>
-
+  <GameCard/>
+  <GameCard/>
+  <GameCard/>
+  <GameCard/>
     <div>
       <h2>Tournois disponible</h2>
-      <!--carte-->
-      <div><img>
-        <div>
-          <h6>Inscription ouverte</h6>
-        </div>
-        <h4>Battle Royale Championship</h4>
-        <h6>League of legends 5V5</h6>
-        <img>
-        <h6>23 Juin 2023</h6>
-        <img>
-        <h6>Lille</h6>
-        <img>
-        <h6>200€</h6>
-      </div>
-      <!--carte-->
-      <div><img>
-        <div>
-          <h6>Inscription ouverte</h6>
-        </div>
-        <h4>Battle Royale Championship</h4>
-        <h6>Street fighter</h6>
-        <img>
-        <h6></h6>
-        <img>
-        <h6></h6>
-        <img>
-        <h6></h6>
-      </div>
-      <!--carte-->
-      <div><img>
-        <div>
-          <h6>Inscription ouverte</h6>
-        </div>
-        <h4>Battle Royale Championship</h4>
-        <h6></h6>
-        <img>
-        <h6></h6>
-        <img>
-        <h6></h6>
-        <img>
-        <h6></h6>
-      </div>
-      <!--carte-->
-      <div><img>
-        <div>
-          <h6>Inscription ouverte</h6>
-        </div>
-        <h4>Battle Royale Championship</h4>
-        <h6></h6>
-        <img>
-        <h6></h6>
-        <img>
-        <h6></h6>
-        <img>
-        <h6></h6>
-      </div>
-      <!--carte-->
-      <div><img>
-        <div>
-          <h6>Inscription ouverte</h6>
-        </div>
-        <h4>Battle Royale Championship</h4>
-        <h6></h6>
-        <img>
-        <h6></h6>
-        <img>
-        <h6></h6>
-        <img>
-        <h6></h6>
-      </div>
-      <!--carte-->
-      <div><img>
-        <div>
-          <h6>Inscription ouverte</h6>
-        </div>
-        <h4>Battle Royale Championship</h4>
-        <h6></h6>
-        <img>
-        <h6></h6>
-        <img>
-        <h6></h6>
-        <img>
-        <h6></h6>
-      </div>
-      <!--carte-->
-      <div><img>
-        <div>
-          <h6>Inscription ouverte</h6>
-        </div>
-        <h4>Battle Royale Championship</h4>
-        <h6></h6>
-        <img>
-        <h6></h6>
-        <img>
-        <h6></h6>
-        <img>
-        <h6></h6>
-      </div>
-      <!--carte-->
-      <div><img>
-        <div>
-          <h6>Inscription ouverte</h6>
-        </div>
-        <h4>Battle Royale Championship</h4>
-        <h6></h6>
-        <img>
-        <h6></h6>
-        <img>
-        <h6></h6>
-        <img>
-        <h6></h6>
-      </div>
-      <!--carte-->
-      <div><img>
-        <div>
-          <h6>Inscription ouverte</h6>
-        </div>
-        <h4>Battle Royale Championship</h4>
-        <h6></h6>
-        <img>
-        <h6></h6>
-        <img>
-        <h6></h6>
-        <img>
-        <h6></h6>
-      </div>
+  <TournamentCard/>
+  <TournamentCard/>
+  <TournamentCard/>
+  <TournamentCard/>
+  <TournamentCard/>
+  <TournamentCard/>
+  <TournamentCard/>
+  <TournamentCard/>
       <button>VOIR PLUS</button>
     </div>
     <div>
@@ -164,7 +36,9 @@ import Footer from './components/Footer.vue'
       <button>sUPER sMASH brOS</button>
       <button>Overwatch 2</button>
       <button>sTREET FIGHTER</button>
-      <!--rajouter les carte-->
+      <ProfilCard/>
+      <ProfilCard/>
+      <ProfilCard/>
       <button>VOIR PLUS</button>
     </div>
     <div>
