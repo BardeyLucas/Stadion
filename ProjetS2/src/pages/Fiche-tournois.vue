@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import ArticleHero from '@/components/Article-hero.vue';
+import ArticleHero from '@/components/Article-Hero.vue';
 import ProfilCard from '@/components/Profil-Card.vue'
 </script>
 <template>
