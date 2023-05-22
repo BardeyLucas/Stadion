@@ -1,15 +1,15 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
+import HeaderPage from './components/Header.vue'
+import FooterPage from './components/Footer.vue'
 import GameCard from './components/Game-Card.vue'
 import TournamentCard from './components/Tournament-Card.vue'
 import ProfilCard from './components/Profil-Card.vue'
 </script>
 <template>
-  <Header/>
-  <body>
-    <h1>Carte des tournois près de chez vous</h1>
+  <HeaderPage/>
+  <body  >
+    <h1 class="font-bold text-white">Carte des tournois près de chez vous</h1>
     <div>
       <h2>Jeux associés</h2>
     </div>
@@ -66,5 +66,5 @@ import ProfilCard from './components/Profil-Card.vue'
       <button>Abonnement premium</button>
     </div>
   </body>
-  <Footer/>
+  <FooterPage/>
 </template>
