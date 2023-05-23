@@ -8,8 +8,8 @@ import ProfilCard from './components/Profil-Card.vue'
 </script>
 <template>
   <HeaderPage/>
-  <body  >
-    <h1 class="font-bold text-white">Carte des tournois près de chez vous</h1>
+  <body>
+    <h1 class="bg-Black">Carte des tournois près de chez vous</h1>
     <div>
       <h2>Jeux associés</h2>
     </div>

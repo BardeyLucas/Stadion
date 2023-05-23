@@ -15,9 +15,9 @@ module.exports = {
           Blue:"#2B6CA8",
         },
         fontFamily: {
-        button:['Bebas Neue', sans-serif],
-        texte:['Lato', sans-serif],
-        title:['Roboto', sans-serif]
+        button:['Bebas Neue', 'sans-serif'],
+        texte:['Lato', 'sans-serif'],
+        title:['Roboto', 'sans-serif']
         },
     extend: {
       gridTemplateColumns: {

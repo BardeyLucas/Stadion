@@ -6,10 +6,10 @@
         @apply text-5xl font-title; 
     }
     h2{
-        @apply text-3xl font-lato;
+        @apply text-3xl font-texte;
     }
     h3{
-        @apply text-2xl font-lato;
+        @apply text-2xl font-texte;
     }
     Button{
         @apply text-2xl font-button;
@@ -18,13 +18,13 @@
         @apply text-base font-button;
     }
     Body{
-        @apply text-base font-lato;
+        @apply text-base font-texte;
     }
     .Bold{
-        @apply text-base font-lato;
+        @apply text-base font-texte;
     }
     legend{
-        @apply text-xs font-lato;
+        @apply text-xs font-texte;
     }
 }
 
