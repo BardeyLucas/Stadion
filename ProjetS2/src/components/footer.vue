@@ -1,3 +1,5 @@
 <template>
-    Template pour le pied de page
+    <Footer>
+        
+    </Footer>
 </template>

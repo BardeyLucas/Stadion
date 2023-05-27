@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
+import { RouterLink } from 'vue-router'
 import ArticleHero from '@/components/Article-Hero.vue';
 import ClassCardTournois from '@/components/Class-Card-Tournois.vue';
 import ProfilCard from '@/components/Profil-Card.vue'
