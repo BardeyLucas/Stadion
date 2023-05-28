@@ -3,8 +3,8 @@ import GameCard from '../components/Game-Card.vue'
 import TournamentCard from '../components/Tournament-Card.vue'
 import ProfilCard from '../components/Profil-Card.vue'
 </script>
-<template>
-    <h1>Carte des tournois près de chez vous</h1>
+<template >
+    <h1 class="mb-20">Carte des tournois près de chez vous</h1>
         <div>
           <h2>Jeux associés</h2>
         </div>
