@@ -3,16 +3,16 @@ import logo from '../../public/img/Icones-interface/icones/Logo.vue'
 import menuIcon from '../../public/img/Icones-interface/icones/menu.vue'
 </script>
 <template>
-    <header class="grille bg-Black border-b-2 border-Gold flex w-full items-stretch justify-between fixed">
+    <header class="grille h-32 bg-Black border-b-2 border-Gold flex w-full items-stretch justify-between fixed -translate-y-32">
         <div class="flex items-center">
             <logo/>
         </div>
-        <div class="flex">
+        <div class="flex items-center">
             <!--<button>
                 <menuIcon/>
             </button>-->
             <nav class="text-center">
-                <ul class="my-10 flex gap-10">
+                <ul class="flex gap-10">
                     <li class="text-White h-10 leading-10 w-44"><button>CLASSEMENT</button></li>
                     <li class="text-White h-10 leading-10 w-44"><button>TOURNOIS</button></li>
                     <li class="text-White h-10 leading-10 w-44"><button>PREMIUM</button></li>
