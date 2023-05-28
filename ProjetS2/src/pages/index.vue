@@ -1,63 +1,86 @@
+bg-DarkGray
 <script setup lang="ts">
 import GameCard from '../components/Game-Card.vue'
 import TournamentCard from '../components/Tournament-Card.vue'
 import ProfilCard from '../components/Profil-Card.vue'
 </script>
 <template>
-    <h1 class=" text-White">Carte des tournois près de chez vous</h1>
-        <div>
-          <h2>Jeux associés</h2>
-        </div>
-      <GameCard/>
-      <GameCard/>
-      <GameCard/>
-      <GameCard/>
-        <div>
-          <h2>Tournois disponible</h2>
-      <TournamentCard/>
-      <TournamentCard/>
-      <TournamentCard/>
-      <TournamentCard/>
-      <TournamentCard/>
-      <TournamentCard/>
-      <TournamentCard/>
-      <TournamentCard/>
-          <button>VOIR PLUS</button>
-        </div>
-        <div>
-          <h2>Classement</h2>
-          <button>Général</button>
-          <button>League of legends</button>
-          <button>sUPER sMASH brOS</button>
-          <button>Overwatch 2</button>
-          <button>sTREET FIGHTER</button>
-          <ProfilCard/>
-          <ProfilCard/>
-          <ProfilCard/>
-          <button>VOIR PLUS</button>
-        </div>
-        <div>
-          <h2>Pourquoi acheter l’abonnement Premium ?</h2>
-          <h3>Avec l’abonnement Premium vous pouvez...</h3>
-          <div>
-            <h3>Vous mettre en avant pour être recruté
-              par des équipes Esport</h3>
-            <p>Vous cherché à vous lancer dans l’esport. Stadion est là pour vous aider.
-              Grâce à la mise en avant de votre profil personnalisé, nous vous aiderons à rentrer en contact avec des
-              équipes professionnelles en temps que joueurs ou coach.</p>
+  <main class="grille grid text-White">
+    <h1 class="text-White text-center py-12 col-span-12">Tournois près de chez vous</h1> 
+    <div class="col-span-12 bg-DarkGray">
+    <div class="grid grid-flow-col">
+        <form class="border-2 border-White col-span-2">
+          <div class="bg-Black">
+            <label for="search"></label>
+            <input class="bg-Black h-12 px-5" type="search" name="search" id="search" placeholder="Recherche tournois">
           </div>
-          <div>
-            <h3>Vous aider a recruter des joueurs ou des coachs</h3>
-            <p>À la recherche d’un nouveau membre dans votre équipe. Joueurs ou coachs, aucun problème avec notre moteur
+        </form>
+        <div class="bg-Gray h-80 col-span-2 row-span-2">t</div> 
+      <div class="col-span-1 row-span-3">
+        <p>ttt</p>
+      </div>
+    </div>
+    </div>
+    <div class="col-span-12 text-center">
+      <h2>Jeux associés</h2>
+    </div>
+      <GameCard/>
+      <GameCard/>
+      <GameCard/>
+      <GameCard/>
+        <div class="col-span-12 text-center mt-24 mb-12">
+          <h2>Tournois disponible</h2>
+        </div>
+      <TournamentCard/>
+      <TournamentCard/>
+      <TournamentCard/>
+      <TournamentCard/>
+      <TournamentCard/>
+      <TournamentCard/>
+      <TournamentCard/>
+      <TournamentCard/>
+        <div class="col-span-12 text-center mt-12">
+          <button class="text-Black bg-Gold h-10 leading-10 w-44">VOIR PLUS</button>
+        </div>
+        <div class="col-span-12 text-center mt-24">
+          <h2>Classement</h2>
+        <div class=" flex justify-between bg-DarkGray mt-12">
+          <button class="w-1/6 h-10 leading-10">Tous les jeux</button>
+          <button class="w-1/6 h-10 leading-10">League of legends</button>
+          <button class="w-1/6 h-10 leading-10">sUPER sMASH brOS</button>
+          <button class="w-1/6 h-10 leading-10">Overwatch 2</button>
+          <button class="w-1/6 h-10 leading-10">sTREET FIGHTER</button>
+          <button class="w-1/6 h-10 leading-10">Valorant</button>
+          </div>
+        </div>
+          <ProfilCard class="col-start-3"/>
+          <ProfilCard class="col-start-6"/>
+          <ProfilCard class="col-start-9"/>
+        <div class="col-span-12 text-center mt-12">
+          <button class="text-Black bg-Gold h-10 leading-10 w-44">VOIR PLUS</button>
+        </div>
+        <div class="col-span-12 text-center mt-12">
+          <h2>Pourquoi acheter l’abonnement Premium ?</h2>
+          <h3 class="mt-5">Avec l’abonnement Premium vous pouvez...</h3>
+        </div>
+          <div class="mt-24 col-start-2 col-span-6 grid">
+              <h3 class="col-start-2 col-span-5">Vous mettre en avant pour être recruté par des équipes E-sport</h3>
+              <p class="col-start-3 col-span-5">Vous cherchez à vous lancer dans l’e-sport. Stadion est là pour vous aider. Grâce à la mise en avant de votre profil personnalisé, nous vous aiderons à rentrer en contact avec des équipes professionnelles en tant que joueurs ou coach.</p>
+          </div>
+          <div class="mt-12 col-start-5 col-span-6 grid">
+            <h3 class="col-start-6 col-span-5">Vous aider a recruter des joueurs ou des coachs</h3>
+            <p class="col-start-7 col-span-5">À la recherche d’un nouveau membre dans votre équipe. Joueurs ou coachs, aucun problème avec notre moteur
               de recherche.
               Celui-ci vous permettra de faire des recherches rapidement et détaillées afin de trouver la personne
               idéal pour compler ce vide.</p>
           </div>
-          <div>
-            <h3>Vous permettre de mettre en avant vos tournois</h3>
-            <p>Vous recherchez à mettre plus en avant votre tournois. Stadion vous aidera à agrandir votre visibilité en
+          <div class="mt-12 col-start-2 col-span-6 grid">
+            <h3 class="col-start-2 col-span-5">Vous permettre de mettre en avant vos tournois</h3>
+            <p class="col-start-3 col-span-5">Vous recherchez à mettre plus en avant votre tournois. Stadion vous aidera à agrandir votre visibilité en
               mettant en avant votre tournois sur notre site.</p>
           </div>
-          <button>Abonnement premium</button>
+          <div class="col-span-12 text-center mt-12 mb-24">
+          <button class="text-Black bg-Gold h-10 leading-10 w-44">Abonnement</button>
         </div>
+      </main>
 </template>

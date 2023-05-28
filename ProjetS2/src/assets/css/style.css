@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer base{
     h1{
-        @apply text-5xl font-title; 
+        @apply text-5xl font-title font-bold; 
     }
     h2{
         @apply text-3xl font-texte;
@@ -26,10 +26,13 @@
     legend{
         @apply text-xs font-texte;
     }
+    ::placeholder{
+        @apply text-White;
+    }
 }
 
 @layer components {
     .grille {
-        @apply grid grid-cols-principal justify-start gap-5 px-12;
+        @apply grid grid-cols-principal justify-center gap-5 px-12;
     }
 }

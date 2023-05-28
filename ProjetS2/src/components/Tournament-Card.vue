@@ -1,5 +1,5 @@
 <template>
-    <div><img>
+    <div class="col-span-3 text-center"><img>
             <div>
               <h6>Inscription ouverte</h6>
             </div>
