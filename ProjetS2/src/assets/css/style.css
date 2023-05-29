@@ -14,20 +14,11 @@
     Button{
         @apply text-2xl font-button;
     }
-    .s{
-        @apply text-base font-button;
-    }
-    Body{
-        @apply text-base font-texte;
-    }
-    .Bold{
+    h4{
         @apply text-base font-texte;
     }
     legend{
         @apply text-xs font-texte;
-    }
-    ::placeholder{
-        @apply text-White;
     }
 }
 
