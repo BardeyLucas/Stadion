@@ -139,4 +139,3 @@ import Inscription from '../../public/img/Icones-interface/icones/Price.vue'
         </div>
       </main>
 </template>
-

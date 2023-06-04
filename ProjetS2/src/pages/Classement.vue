@@ -2,79 +2,63 @@
 import { RouterView } from 'vue-router'
 import Hero from '@/components/Hero.vue';
 import ClassCardProfil from '@/components/Class-Card-Profil.vue';
+import Loupe from '../../public/img/Icones-interface/icones/Loupe.vue';
+import Autre from '../../public/img/Icones-interface/icones/Pages.vue';
 </script>
 <template>
-    <hero/>
-    <div>
-        <h2>Prochains Tournois</h2>
-        <div>
-            <div>Tous les jeux</div>
-            <div>League of legends</div>
-            <div>sUPER sMASH brOS</div>
-            <div>Overwatch 2</div>
-            <div>sTREET FIGHTER</div>
-            <div>vALORANT</div>
-            <div>Filtres</div>
-            <div><form><input type="search"></form><img></div>
+    <Hero />
+    <div class="grille pb-5">
+        <div class="col-span-12 text-left leading-10 text-White">
+            <button class="w-1/6 h-12 bg-DarkGray">Tous les jeux</button>
+            <button class="w-1/6 h-12 bg-DarkGray">League of legends</button>
+            <button class="w-1/6 h-12 bg-DarkGray">sUPER sMASH brOS</button>
+            <button class="w-1/6 h-12 bg-DarkGray">Overwatch 2</button>
+            <button class="w-1/6 h-12 bg-DarkGray">sTREET FIGHTER</button>
+            <button class="w-1/6 h-12 bg-DarkGray">vALORANT</button>
+            <form class="ml-auto w-2/6 h-12 bg-none border-2 border-Gray"><input class="h-full w-full bg-Black px-12"
+                    placeholder="Recherche joueur" type="search"></form>
         </div>
-        <div>
-            <p>#</p>
-            <p>UTILISATEUR</p>
-            <p>Tier</p>
-            <p>LP</p>
-            <p>Niveau</p>
-            <p> Champions plus utilisées</p>
-        </div>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <ClassCardProfil/>
-        <div>
-            <div></div>
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
-            <div>5</div>
-            <p>...</p>
-            <div>50</div>
-            <div></div>
-        </div>
+        <Loupe class="col-start-9 -mt-[3.25rem] " />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <ClassCardProfil />
+        <Autre class="col-span-12 mt-12 mb-24 mx-auto" />
     </div>
 </template>
