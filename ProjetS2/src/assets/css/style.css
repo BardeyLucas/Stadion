@@ -21,7 +21,6 @@
         @apply text-xs font-texte;
     }
 }
-
 @layer components {
     .grille {
         @apply grid grid-cols-principal justify-center gap-5 px-12;

@@ -6,7 +6,7 @@ import Coupe from '../../public/img/Icones-interface/icones/Coupe.vue'
 <template>
   <div class="col-span-3 bg-LightGray text-Black rounded-xl	">
     <img src="../../public/img/Images/AllPlatform/Img-card-Lol.png" />
-    <div class="absolute z-10 text-White bg-Blue text-center h-4 w-32 rounded ml-2.5 -mt-7">
+    <div class="absolute z-1 text-White bg-Blue text-center h-4 w-32 rounded ml-2.5 -mt-7">
       <legend class="leading-4">Inscription ouverte</legend>
     </div>
     <div class="m-5">

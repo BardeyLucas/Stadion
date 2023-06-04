@@ -3,7 +3,7 @@ import logo from '../../public/img/Icones-interface/icones/Logo.vue'
 import menuIcon from '../../public/img/Icones-interface/icones/menu.vue'
 </script>
 <template>
-    <header class="grille h-32 bg-Black border-b-2 border-Gold flex w-full items-stretch justify-between fixed -translate-y-32">
+    <header class="z-20 grille h-32 bg-Black border-b-2 border-Gold flex w-full items-stretch justify-between fixed -translate-y-32">
         <div class="flex items-center">
             <logo/>
         </div>
