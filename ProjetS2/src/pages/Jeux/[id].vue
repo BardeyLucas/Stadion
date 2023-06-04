@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import ArticleHero from '@/components/Article-Hero.vue';
+import JeuxHero from '@/components/Jeux-Hero.vue';
 import ClassCardTournois from '@/components/Class-Card-Tournois.vue';
 import ProfilCard from '@/components/Profil-Card.vue'
 </script>
 
 <template>
-    <ArticleHero />
+    <JeuxHero />
     <div class="grille mt-24">
         <h2 class="col-span-12 text-center text-White">Tournois disponible</h2>
         <ClassCardTournois />

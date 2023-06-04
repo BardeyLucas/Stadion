@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import ArticleHero from '@/components/Article-Hero.vue';
+import TournoisHero from '@/components/Tournois-Hero.vue';
 import ProfilCard from '@/components/Profil-Card.vue'
 </script>
 <template>
-        <ArticleHero/>
+        <TournoisHero/>
             <img>
             <button>REJOINDRE</button>
         <div>
