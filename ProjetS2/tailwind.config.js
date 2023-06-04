@@ -21,7 +21,8 @@ module.exports = {
     },
     extend: {
       gridTemplateColumns: {
-        principal: 'repeat(12, 80px)'
+        principal: 'repeat(12, 80px)',
+        secondaire: 'repeat(6, 80px)',
       }
     }
   },

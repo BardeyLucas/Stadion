@@ -1,4 +1,4 @@
-<!-- <script setup lang="ts">
+ <script setup lang="ts">
 import GameCard from '../components/Game-Card.vue'
 import TournamentCard from '../components/Tournament-Card.vue'
 import ProfilCard from '../components/Profil-Card.vue'
@@ -103,13 +103,15 @@ import Inscription from '../../public/img/Icones-interface/icones/Price.vue'
           <button class="w-1/6 h-10 leading-10">Valorant</button>
           </div>
         </div>
-          <ProfilCard class="col-start-3"/>
-          <ProfilCard class="col-start-6"/>
-          <ProfilCard class="col-start-9"/>
+        <div class="col-span-12 grilleALT gap-x-5 mt-12">
+          <ProfilCard/>
+          <ProfilCard/>
+          <ProfilCard/>
+        </div>
         <div class="col-span-12 text-center mt-12">
           <button class="text-Black bg-Gold h-10 leading-10 w-44">VOIR PLUS</button>
         </div>
-        <div class="col-span-12 text-center mt-12">
+        <div class="col-span-12 text-center mt-24">
           <h2>Pourquoi acheter l’abonnement Premium ?</h2>
           <h3 class="mt-5">Avec l’abonnement Premium vous pouvez...</h3>
         </div>
@@ -136,31 +138,5 @@ import Inscription from '../../public/img/Icones-interface/icones/Price.vue'
           <button class="text-Black bg-Gold h-10 leading-10 w-44">Abonnement</button>
         </div>
       </main>
-</template> -->
+</template> 
 
-<script setup lang="ts">
-import { RouterView } from 'vue-router'
-import ArticleHero from '@/components/Article-Hero.vue';
-import ClassCardTournois from '@/components/Class-Card-Tournois.vue';
-import ProfilCard from '@/components/Profil-Card.vue'
-</script>
-
-<template>
-  <ArticleHero />
-  <div class="grille">
-    <h2 class="col-span-12 text-center">Tournois disponible</h2>
-    <ClassCardTournois />
-    <ClassCardTournois />
-    <ClassCardTournois />
-    <ClassCardTournois />
-    <ClassCardTournois />
-    <button class="text-Black bg-Gold h-10 leading-10 col-span-2 col-start-6">VOIR PLUS</button>
-  </div>
-  <div class="grille">
-    <h2 class="col-span-12 text-center">Meilleur joueur</h2>
-    <ProfilCard />
-    <ProfilCard />
-    <ProfilCard />
-    <button class="text-Black bg-Gold h-10 leading-10 col-span-2 col-start-6">VOIR PLUS</button>
-  </div>
-</template>

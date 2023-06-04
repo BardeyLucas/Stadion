@@ -1,5 +1,5 @@
 <template>
-    <div class="col-span-12 border-b-2 border-DarkGray flex gap-10 h-36">
+    <div class="col-span-12 border-b-2 border-DarkGray flex gap-10 h-36 mt-12">
         <img class="w-64"/>
         <div class="items-center py-8 gap-y-2">
             <time class="text-White">10 juin 2023</time>

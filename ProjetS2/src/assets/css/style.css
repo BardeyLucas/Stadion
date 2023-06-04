@@ -25,4 +25,7 @@
     .grille {
         @apply grid grid-cols-principal justify-center gap-5 px-12;
     }
+    .grilleALT {
+        @apply grid grid-cols-secondaire justify-center gap-5;
+    }
 }
