@@ -1,12 +1,18 @@
 <template>
     <div class="grille">
-    <img>
-        <form>
-            <input type="email">
-            <input type="password">
+        <img class="mt-14 mb-24 col-span-2 h-[229px] w-full col-start-6" />
+        <form class="col-start-3 col-span-8 mb-9">
+            <input class="pl-10 text-White w-full h-16 bg-Black border-2 border-DarkGray" type="email"
+                placeholder="E-mail ou n° de téléphone">
         </form>
-        <button class="h-10 col-span-2 col-start-6">SE CONNECTER</button>
-        <div class="flex"><p class="text-Gold">Créer un compte</p><p>sur Stadion</p></div>
-        <p class="text-Gold">Mot de passe oublié</p>
-    </div>
-</template>
+        <form class="col-start-3 col-span-8">
+            <input class="pl-10 text-White w-full h-16 bg-Black border-2 border-DarkGray" type="password"
+                placeholder="Mot de passe">
+        </form>
+        <button class="mt-12 h-10 col-span-2 col-start-6 bg-Gold">SE CONNECTER</button>
+        <div class="col-span-12 flex mt-12 mb-7 gap-x-1 mx-auto">
+            <h3 class="text-Gold">Créer un compte</h3>
+            <h3 class="text-White">sur Stadion</h3>
+        </div>
+        <h3 class="col-span-12 text-Gold mb-96 text-center">Mot de passe oublié</h3>
+</div></template>
