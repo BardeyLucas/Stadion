@@ -94,13 +94,13 @@ import Inscription from '../../public/img/Icones-interface/icones/Price.vue'
         </div>
         <div class="col-span-12 text-center mt-24">
           <h2>Classement</h2>
-        <div class=" flex justify-between bg-DarkGray mt-12">
-          <button class="w-1/6 h-10 leading-10">Tous les jeux</button>
-          <button class="w-1/6 h-10 leading-10">League of legends</button>
-          <button class="w-1/6 h-10 leading-10">sUPER sMASH brOS</button>
-          <button class="w-1/6 h-10 leading-10">Overwatch 2</button>
-          <button class="w-1/6 h-10 leading-10">sTREET FIGHTER</button>
-          <button class="w-1/6 h-10 leading-10">Valorant</button>
+        <div class="my-0 flex justify-between bg-DarkGray mt-12">
+          <button class="w-1/6 h-12 leading-12">Tous les jeux</button>
+          <button class="w-1/6 h-12 leading-12">League of legends</button>
+          <button class="w-1/6 h-12 leading-12">sUPER sMASH brOS</button>
+          <button class="w-1/6 h-12 leading-12">Overwatch 2</button>
+          <button class="w-1/6 h-12 leading-12">sTREET FIGHTER</button>
+          <button class="w-1/6 h-12 leading-12">Valorant</button>
           </div>
         </div>
         <div class="col-span-12 grilleALT gap-x-5 mt-12">
@@ -139,115 +139,55 @@ import Inscription from '../../public/img/Icones-interface/icones/Price.vue'
         </div>
       </main>
 </template>-->
-
-<script setup lang="ts">
-import { RouterView } from 'vue-router'
-import TournoisHero from '@/components/Tournois-Hero.vue';
-import TournamentCard from '@/components/Tournament-Card.vue'
+<script setup lang='ts'>
+import Hero from '@/components/Hero.vue';
 </script>
 <template>
-  <TournoisHero/>
-  <div class="grille">
-  <div class="text-White col-span-7 mt-24">
-    <h2>Informations générales</h2>
-    <div>
-      <h3 class="mt-12">Lieu</h3>
-      <p class="text-Gold mt-2.5 w-80">France, 6 Rue du Commandant Pierre Rossel, 25200 Montbéliard</p>
+  <Hero/>
+  <div class="py-24 grille text-White gap-y-12">
+  <div class="col-span-7">
+    <h3 class="mt-20 mb-9">Profil personnalisés</h3>
+    <p>Vous pouvez maintenant personnaliser votre bannière en plus de votre photo de profil</p>
+  </div>
+  <img class="col-span-5 h-64 border-2"/>
+  <img class="col-span-5 h-64 border-2"/>
+  <div class="col-span-7 text-end">
+    <h3 class="mt-20  mb-9">Assistance prioritaire et participation au développement du site</h3>
+    <p>En cas de problème vous serez prioritaire et vous aurez aussi la possibilité de suggérer des services ou autres pour le site, tel que de nouveaux jeux ont ajouté.</p>
+  </div>
+  <div class="col-span-7">
+    <h3 class="mt-20  mb-9">Inscriptions anticipées aux tournois et exclusivité</h3>
+    <p>Vous pouvez vous inscrire en avance aux tournois afin d’être sûr de pouvoir y participer. Participer à des tournois uniquement disponibles aux abonnés</p>
+  </div>
+  <img class="col-span-5 h-64 border-2"/>
+  <h2 class="col-span-12">Nos offres</h2>
+  <div class="h-[600px] col-span-4 col-start-2 bg-DarkGray">
+    <div class="text-center w-full h-24 bg-Gray text-Black pt-7"><h2>Gratuit</h2></div>
+    <p class="py-8 px-7">Vous aurez accès aux principaux accès de notre site sans aucuns avantages.</p>
+    <h2 class="py-8 px-7">0€</h2>
+    <div class="w-full text-center text-Black">
+    <button class="w-44 h-11 bg-Gold my-12">COMMENCER</button>
     </div>
-    <div class="my-12">
-      <h3 class="mb-2.5">Nombre d’équipe</h3>
-      <div class="flex"><p class="mr-3 ml-1">Inscrit(e)</p><p class="text-Gold mr-10">5</p>
-      <p class="mr-3">Emplacements</p><p class="text-Gold">24</p></div>
-    </div>
-    <div>
-      <h3 class="mb-2.5">Inscription</h3>
-      <div class="flex gap-x-52">
-      <div class="ml-1">
-        <p>Début d’incription</p>
-        <p class="text-Gold">24 avril 2023</p>
-      </div>
-      <div>
-        <p>Fin d’incription</p>
-        <p class="text-Gold">20 juin 2023</p>
-      </div>
-      </div>
-      <div class="h-2.5 w-[475px] bg-DarkGray rounded"></div>
-      <div class="h-2.5 w-14 bg-Blue rounded-s -mt-2.5"></div>
-    </div>
-    <div class="mt-12">
-      <h3>Règles</h3>
-      <ul class="list-disc ml-5">
-        <li class="mt-2.5">Un retard de plus de 10 min ou une absence non annoncée en avance sera sanctionné d’une expulsion du tournoi et d’une interdiction de participer au suivant. Il faudra donc ne pas oublier de prévenir le staff du tournoi avant le match dans ce cas-là.</li>
-        <li class="mt-2.5">Dodge la game durant la sélection des champions aura pour résultat la disqualification du joueur sauf si c’est lié à un problème technique.</li>
-        <li class="mt-2.5">La tricherie, toxicité ou utilisation de plusieurs comptes auras pour conséquence la disqualification du joueur et aussi un signalement.</li>
-        <li class="mt-2.5">Commencer la partie en même temps que votre adversaire sinon la partie est perdue.</li>
-        <li class="mt-2.5">Les lobbies privés/personnalisés seront utilisés pour accueillir le match.</li>
-        <li class="mt-2.5">L'équipe qui n'accueille pas le match choisira son camp.</li>
-        <li class="mt-2.5">Les équipes seront classées au hasard à la clôture des inscriptions.</li>
+        <ul class="px-10 list-disc">
+        <li>Accès aux tournois</li>
+        <li>Accès au classement</li>
+        <li>Accès aux profils joueurs </li>
+        <li>Publicités</li>
       </ul>
-    </div>
   </div>
-  <div class="text-White col-span-3 col-start-10 flex flex-col mt-24">
-    <h2 class="w-full text-center text-White mb-12">Format</h2>
-    <div class="flex h-12 gap-x-12 mb-12">
-      <img class="h-12 w-12">
-      <div>
-        <h3>Jeux</h3>
-        <p class="text-Gold">League of legends, EUNE</p>
+  <div class="h-[600px] col-span-4 col-start-8 bg-DarkGray">
+        <div class="text-center w-full h-24 bg-Gold text-Black pt-7"><h2>Premium</h2></div>
+      <p class="py-8 px-7">Profitez des avantages du premium.</p>
+      <h2 class="py-8 px-7">4,99€ /mois</h2>
+      <div class="w-full text-center text-Black">
+      <button class="w-44 h-11 bg-Gold my-12">COMMENCER</button>
       </div>
-    </div>
-    <div class="flex h-12 gap-x-12 mb-12">
-      <img class="h-12 w-12">
-      <div>
-        <h3>Date</h3>
-        <p class="text-Gold">25 juin 2023, 10h00</p>
-      </div>
-    </div>
-    <div class="flex h-12 gap-x-12 mb-12">
-      <img class="h-12 w-12">
-      <div>
-        <h3>Taille d'équipe</h3>
-        <p class="text-Gold">5v5</p>
-      </div>
-    </div>
-    <div class="flex h-12 gap-x-12 mb-12">
-      <img class="h-12 w-12">
-      <div>
-        <h3>Rang</h3>
-        <p class="text-Gold">Unranked - challenger</p>
-      </div>
-    </div>
-    <div class="flex h-12 gap-x-12 mb-12">
-      <img class="h-12 w-12">
-      <div>
-        <h3>Format</h3>
-        <p class="text-Gold">Élimination directe</p>
-      </div>
-    </div>
-    <div class="flex h-12 gap-x-12 mb-12">
-      <img class="h-12 w-12">
-      <div>
-        <h3>Inscription</h3>
-        <p class="text-Gold">Accès gratuit</p>
-      </div>
-    </div>
-    <div class="flex h-12 gap-x-12">
-      <img class="h-12 w-12">
-      <div>
-        <h3>Récompenses</h3>
-        <div class="flex gap-x-16"><p>1er</p><p class="text-Gold">200€</p></div>
-        <div class="flex gap-x-12"><p>2éme</p><p class="text-Gold">100€</p></div>
-        <div class="flex gap-x-12"><p>3éme</p><p class="text-Gold">50€</p></div>
-      </div>
-    </div>
-  </div>
-  <div class="col-span-12 grille px-0">
-    <h2 class="col-span-12 text-center text-White mt-24 mb-12">Inscrivez vous à d’autres tournois</h2>
-      <TournamentCard/>
-      <TournamentCard/>
-      <TournamentCard/>
-      <TournamentCard/>
-    <button class="mt-12 mb-24 h-10 col-span-2 col-start-6 bg-Gold">VOIR PLUS</button>
+          <ul class="px-10 list-disc">
+          <li>Profils personnalisés</li>
+          <li>Assistance prioritaire et participation au développement du site</li>
+          <li>Inscriptions anticipées aux tournois et exclusivité</li>
+          <li>Pas de publicités</li>
+        </ul>
   </div>
   </div>
 </template>

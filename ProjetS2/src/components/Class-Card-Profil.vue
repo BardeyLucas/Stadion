@@ -6,9 +6,9 @@
         <p class="ml-auto w-20 text-center">Challenger</p>
         <p class="w-20 text-center">1 690 LP</p>
         <p class="w-20 text-center">967</p>
-        <img class="h-10 w-10 mr-2.5"/>
-        <img class="h-10 w-10 mr-2.5"/>
-        <img class="h-10 w-10 mr-2.5"/>
-        <img class="h-10 w-10 mr-24"/>
+        <img class="h-10 w-10 mr-2.5 rounded-full"/>
+        <img class="h-10 w-10 mr-2.5 rounded-full"/>
+        <img class="h-10 w-10 mr-2.5 rounded-full"/>
+        <img class="h-10 w-10 mr-24 rounded-full"/>
     </div>
 </template>
