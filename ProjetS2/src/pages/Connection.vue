@@ -14,5 +14,6 @@
             <h3 class="text-Gold">Créer un compte</h3>
             <h3 class="text-White">sur Stadion</h3>
         </div>
-        <h3 class="col-span-12 text-Gold mb-96 text-center">Mot de passe oublié</h3>
-</div></template>
+        <h3 class="col-span-12 text-Gold mb-80 text-center">Mot de passe oublié</h3>
+</div>
+</template>
