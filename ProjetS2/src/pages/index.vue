@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!--<script setup lang="ts">
 import GameCard from '../components/Game-Card.vue'
 import TournamentCard from '../components/Tournament-Card.vue'
 import ProfilCard from '../components/Profil-Card.vue'
@@ -138,5 +138,4 @@ import Inscription from '../../public/img/Icones-interface/icones/Price.vue'
           <button class="text-Black bg-Gold h-10 leading-10 w-44">Abonnement</button>
         </div>
       </main>
-</template>
-
+</template>-->
