@@ -18,14 +18,14 @@ const activeMenu = ref(false)
         <Croix class="mr-5 w-24 opacity-0 absolute -mt-6" :class="{ 'opacity-100': activeMenu }"/>
         </button>
         <nav class="invisible opacity-0 fixed inset-0 h-screen w-screen bg-Black text-2xl text-Blanc transition-all duration-300 ease-in-out
-    lg:!visible lg:opacity-100 lg:h-12 lg:mt-16"
+    lg:!visible lg:opacity-100 lg:h-12 lg:mt-16 lg:ml-32"
             :class="{ '!visible opacity-100': activeMenu }"
             v-scroll-lock="activeMenu">
             <ul class="mt-[25vh] lg:w-full justify-end lg:flex lg:-mt-6 lg:text-center text-Blanc">
                 <li class="text-White h-14 leading-10 w-44 lg:mr-12"><RouterLink to="/Classement" ><button class="text-3xl">CLASSEMENT</button></RouterLink></li>
                 <li class="text-White h-14 leading-10 w-44 lg:mr-12"><RouterLink to="/Tournois-dispo" ><button class="text-3xl">TOURNOIS</button></RouterLink></li>
                 <li class="text-White h-14 leading-10 w-44 lg:mr-12"><RouterLink to="/Premium" ><button class="text-3xl">PREMIUM</button></RouterLink></li>
-                <li class="text-White lg:text-Black bg-Black lg:bg-Gold h-14 leading-10 w-44 lg:mr-12"><RouterLink to="/Connection" ><button class="text-3xl">MON COMPTE</button></RouterLink></li>
+                <li class="text-White lg:text-Black bg-Black lg:bg-Gold h-14 leading-10 w-44 lg:mr-44"><RouterLink to="/Connection" ><button class="text-3xl">MON COMPTE</button></RouterLink></li>
             </ul>
         </nav>
     </header>
