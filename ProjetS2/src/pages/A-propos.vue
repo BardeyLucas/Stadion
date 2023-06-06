@@ -1,5 +1,10 @@
 <script setup lang="ts">
 import Hero from '@/components/Hero.vue';
+import instagram from '../../public/img/Icones-interface/reseaux/or/instagram.vue';
+import discord from '../../public/img/Icones-interface/reseaux/or/discord.vue';
+import linkedin from '../../public/img/Icones-interface/reseaux/or/Linkedin.vue';
+import Lucas from '../../public/img/Images/AllPlatform/Lucas.vue';
+import Vi from '../../public/img/Images/AllPlatform/Vi.vue';
 </script>
 <template>
     <Hero />
@@ -17,7 +22,7 @@ import Hero from '@/components/Hero.vue';
             Nous sommes passionnés par les jeux vidéo et l’e-sport, c’est pour cela où nous avons commencé ce projet. Notre
             équipe</p>
         <div class="col-span-5 col-start-2">
-            <img class="h-[200px] w-[200px] mx-auto mb-7 rounded-full" />
+            <Lucas class="mx-auto mb-7"/>
             <p class="font-bold mb-6">Lucas BARDEY</p>
             <p class="mb-6">Le développeur</p>
             <p class="mb-6">Bio</p>
@@ -27,13 +32,13 @@ import Hero from '@/components/Hero.vue';
                 smash bros ultimate/mêlée et au speed running.</p>
             <p class="mb-7">Et mon but dans la vie est toujours de devenir plus tard level designer</p>
             <div class="flex gap-x-9 mb-24">
-                <img class="h-12 w-12" />
-                <img class="h-12 w-12" />
-                <img class="h-12 w-12" />
+                <instagram/>
+                <discord/>
+                <linkedin/>
             </div>
         </div>
         <div class="col-span-5 col-start-8">
-            <img class="h-[200px] w-[200px] mx-auto mb-7 rounded-full" />
+            <Vi class="mx-auto mb-7"/>
             <p class="font-bold mb-6">Viktor GHIRARDELLI</p>
             <p class="mb-6">Le designer</p>
             <p class="mb-6">Bio</p>
@@ -42,10 +47,10 @@ import Hero from '@/components/Hero.vue';
             <p class="mb-24">Cette passion pour les jeux vidéo m’a amené vers la découverte de l’e-sport. Pour ma part c’est
                 essentiellement l’e-sport de League of legends que je suis de manière assidue.</p>
             <div class="flex gap-x-9 mb-24 mt-[100px]">
-            <img class="h-12 w-12" />
-            <img class="h-12 w-12" />
+            <discord/>
+            <linkedin/>
         </div>
     </div>
-    <p class="col-span-12">On vous souhaite de passer un agréable moment sur notre site internet !</p>
+    <p class="col-span-12 mb-24">On vous souhaite de passer un agréable moment sur notre site internet !</p>
 </div>
 </template>
