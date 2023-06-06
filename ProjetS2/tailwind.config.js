@@ -23,6 +23,8 @@ module.exports = {
       gridTemplateColumns: {
         principal: 'repeat(12, 80px)',
         secondaire: 'repeat(6, 80px)',
+        telprincipal: 'repeat(12, 1fr)',
+        telsecondaire: 'repeat(6, 1fr)',
       }
     }
   },

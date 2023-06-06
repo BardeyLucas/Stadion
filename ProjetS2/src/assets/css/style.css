@@ -3,19 +3,19 @@
 @tailwind utilities;
 @layer base{
     h1{
-        @apply text-5xl font-title font-bold; 
+        @apply text-xl lg:text-5xl font-title font-bold; 
     }
     h2{
-        @apply text-3xl font-texte;
+        @apply text-xl lg:text-3xl font-texte;
     }
     h3{
-        @apply text-2xl font-texte;
+        @apply text-base lg:text-2xl font-texte;
     }
     Button{
-        @apply text-2xl font-button;
+        @apply text-xs lg:text-2xl font-button;
     }
-    h4{
-        @apply text-base font-texte;
+    p{
+        @apply text-xs lg:text-base font-texte;
     }
     legend{
         @apply text-xs font-texte;
@@ -23,9 +23,10 @@
 }
 @layer components {
     .grille {
-        @apply grid grid-cols-principal justify-center gap-5 px-12;
+        @apply grid lg:grid-cols-principal grid-cols-telprincipal md:grid-cols-telprincipal justify-center gap-5 lg:px-12 px-6;
     }
     .grilleALT {
-        @apply grid grid-cols-secondaire justify-center gap-5;
+        @apply grid lg:grid-cols-secondaire grid-cols-telsecondaire md:grid-cols-telsecondaire  justify-center gap-5;
     }
+
 }
