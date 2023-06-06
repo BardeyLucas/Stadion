@@ -17,17 +17,17 @@ import logo from '../../public/img/Icones-interface/icones/Logo.vue'
             </div>
             <div class="col-span-1 w-44">
                 <h2>STATISTIQUES</h2>
-                <p>Classement</p>
-                <p>Trouver un tournois</p>
+                <RouterLink to="/Classement" ><p>Classement</p></RouterLink>
+                <RouterLink to="/" ><p>Trouver un tournois</p></RouterLink>
             </div>
             <div class="col-span-1 w-44">
                 <h2>PREMIUM</h2>
-                <p>Abonnement</p>
+                <RouterLink to="Premium" ><p>Abonnement</p></RouterLink>
             </div>
             <div class="flex gap-56 col-span-3 justify-center mt-12">
-                <p>Nous contacter</p>
-                <p>Politique de confidentialité</p>
-                <p>Qui somme nous ?</p>
+                <RouterLink to="Contact" ><p>Nous contacter</p></RouterLink>
+                <RouterLink to="Politique-confidentiel" ><p>Politique de confidentialité</p></RouterLink>
+                <RouterLink to="A-propos" ><p>Qui somme nous ?</p></RouterLink>
             </div>
             <div class="col-span-3 justify-center mt-9">
                 <p>@ 2023 Stadion. Tous droits réservés.</p>
