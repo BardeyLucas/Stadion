@@ -8,6 +8,10 @@ import Date from '../../public/img/Icones-interface/icones/Date.vue'
 import Team from '../../public/img/Icones-interface/icones/Team.vue'
 import Rank from '../../public/img/Icones-interface/icones/Rank.vue'
 import Inscription from '../../public/img/Icones-interface/icones/Price.vue'
+import { ListJeux_sans } from '@/backend'
+import type { JeuxResponse } from '@/pocketbase-types'
+const lesJeux: JeuxResponse[] = await ListJeux_sans();
+console.log(lesJeux);
 </script>
 <template>
   <main class="grille grid text-White">
@@ -76,10 +80,9 @@ import Inscription from '../../public/img/Icones-interface/icones/Price.vue'
     <div class="col-span-12 text-center mt-24 mb-12">
       <h2>Jeux associés</h2>
     </div>
-      <GameCard/>
-      <GameCard/>
-      <GameCard/>
-      <GameCard/>
+    <div class="flex col-span-full gap-5 flex-nowrap">
+      <GameCard v-for="Jeux of lesJeux" :v-key="Jeux.id" v-bind="{ ...Jeux }" />
+    </div>
     <div class="col-span-12 inset-x-0 gap-5 flex flex-row justify-center my-12">
         <div class="w-2.5 h-2.5 rounded-md bg-Gold"></div>
         <div class="w-2.5 h-2.5 rounded-md bg-Gold"></div>

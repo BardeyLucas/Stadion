@@ -1,6 +1,14 @@
+<script setup lang="ts">
+import { pb } from '@/backend';
+import type { JeuxResponse } from "@/pocketbase-types"
+const props = defineProps<JeuxResponse>()
+const img0 = props.image_main
+const urlImg0 = img0 && pb.getFileUrl(props, img0, { thumb: '100x200' })
+const url = `/artiste/${props.id}`
+</script>
 <template>
-    <div class="col-span-3">
-        <img src="../../public/img/Images/AllPlatform/Img-Lol.png"/>
-        <h5 class="mt-3">League of legends</h5>
-    </div>
+    <RouterLink class="w-96" :to="{name: 'Jeux-id', params: {id}}">
+        <img :src="urlImg0"/>
+        <h5 class="mt-3">{{Game}}</h5>
+    </RouterLink>
 </template>

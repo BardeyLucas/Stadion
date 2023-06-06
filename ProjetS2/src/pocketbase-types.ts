@@ -83,7 +83,7 @@ export type TournoisRecord = {
 }
 
 // Response types include system fields and match responses from the PocketBase API
-export type JeuxResponse = Required<JeuxRecord> & BaseSystemFields
+export type JeuxResponse<Texpand = unknown> = Required<JeuxRecord> & BaseSystemFields<Texpand>
 export type JoueurResponse = Required<JoueurRecord> & BaseSystemFields
 export type SectionResponse = Required<SectionRecord> & BaseSystemFields
 export type TournoisResponse<Texpand = unknown> = Required<TournoisRecord> & BaseSystemFields<Texpand>
