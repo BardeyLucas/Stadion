@@ -4,7 +4,7 @@ import type { JeuxResponse } from "@/pocketbase-types"
 const props = defineProps<JeuxResponse>()
 const img0 = props.image_main
 const urlImg0 = img0 && pb.getFileUrl(props, img0, { thumb: '100x200' })
-const url = `/artiste/${props.id}`
+const url = `/Jeux/${props.id}`
 </script>
 <template>
     <RouterLink class="w-96" :to="{name: 'Jeux-id', params: {id}}">

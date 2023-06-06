@@ -1,14 +1,26 @@
+<!-- <script setup lang="ts">
+import { pb } from '@/backend';
+import type { JeuxResponse } from "@/pocketbase-types"
+const props = defineProps<JeuxResponse>()
+const img0 = props.image_tournament
+const urlImg0 = img0 && pb.getFileUrl(props, img0, { thumb: '100x200' })
+const img1 = props.image_main
+const urlImg1 = img1 && pb.getFileUrl(props, img1, { thumb: '100x200' })
+const url = `/Jeux/${props.id}`
+
+</script>
+
+ <script setup lang="ts">
+import { pb } from '@/backend';
+import type { JeuxResponse } from "@/pocketbase-types"
+const props = defineProps<JeuxResponse>()
+const img0 = props.image_main
+const urlImg0 = img0 && pb.getFileUrl(props, img0, { thumb: '100x200' })
+const url = `/artiste/${props.id}`
+</script>
 <template>
-    <img class="w-full h-[496px]" />
-    <div class="grille">
-        <div class="col-span-3 -mt-56">
-            <img class=" w-60 h-80 rounded-xl"/>
-        </div>
-        <div class="col-span-8 col-start-4 text-White -mt-20">
-            <h1 class="mb-12">Tournois Lol Championship</h1>
-            <p>League of Legends (LoL) est un jeu multijoueur qui allie stratégie, travail d'équipe et action palpitante.
-                Choisissez parmi une vaste liste de champions puissants, chacun doté de capacités uniques, et engagez-vous
-                dans des batailles épiques sur la Faille de l'invocateur. </p>
-        </div>
-    </div>
-</template>
+    <RouterLink class="w-96" :to="{name: 'Jeux-id', params: {id}}">
+        <img :src="urlImg0"/>
+        <h5 class="mt-3">{{Game}}</h5>
+    </RouterLink>
+</template>-->

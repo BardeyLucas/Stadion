@@ -1,12 +1,29 @@
 <script setup lang="ts">
+import { pb, ListJeux_sans } from '@/backend'
+import type { JeuxResponse } from '@/pocketbase-types'
 import { RouterView } from 'vue-router'
-import JeuxHero from '@/components/Jeux-Hero.vue';
 import ClassCardTournois from '@/components/Class-Card-Tournois.vue';
 import ProfilCard from '@/components/Profil-Card.vue'
+const props = defineProps<{ id: string}>();
+const Jeux = await ListJeux_sans(props.id)
+const img0 = Jeux.image_hero
+const urlImg0 = img0 && pb.getFileUrl(Jeux, img0, { thumb: '100x200' })
+const url = `/Jeux/${props.id}`
 </script>
 
 <template>
-    <JeuxHero />
+    <img class="w-full h-[496px]" />
+    <div class="grille">
+        <div class="col-span-3 -mt-56">
+            <img class=" w-60 h-80 rounded-xl"/>
+        </div>
+        <div class="col-span-8 col-start-4 text-White -mt-20">
+            <h1 class="mb-12">Tournois Lol Championship</h1>
+            <p>League of Legends (LoL) est un jeu multijoueur qui allie stratégie, travail d'équipe et action palpitante.
+                Choisissez parmi une vaste liste de champions puissants, chacun doté de capacités uniques, et engagez-vous
+                dans des batailles épiques sur la Faille de l'invocateur. </p>
+        </div>
+    </div>
     <div class="grille mt-24">
         <h2 class="col-span-12 text-center text-White">Tournois disponible</h2>
         <ClassCardTournois />

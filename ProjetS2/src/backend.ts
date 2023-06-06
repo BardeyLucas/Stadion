@@ -1,5 +1,5 @@
 import PocketBase from 'pocketbase' ;
-import type { JeuxResponse } from './pocketbase-types'
+import type { JeuxResponse, SectionResponse, TournoisResponse } from './pocketbase-types'
 export const pb = new PocketBase('http://127.0.0.1:8090') ;
 
 
@@ -15,3 +15,12 @@ const records = await pb.collection('Jeux').getFullList<JeuxResponse>();
   return filteredRecords;
 }
 
+export async function ListTournois() {
+const records = await pb.collection('Tournois').getFullList<TournoisResponse>();
+return records ;
+}
+
+export async function ListSection() {
+const records = await pb.collection('Section').getFullList<SectionResponse>();
+return records ;
+}
