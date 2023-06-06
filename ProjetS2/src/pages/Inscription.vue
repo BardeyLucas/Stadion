@@ -48,15 +48,15 @@
         <button class="mt-12 h-10 col-span-2 col-start-6 bg-Gold">S'INSCRIRE</button>
         <div class="col-span-4 col-start-5 flex flex- mt-12 mb-7 gap-x-1 mx-auto text-center">
             <p><a class="text-White">En cliquant sur “s’inscrire gratuitement”, vous acceptez les</a>
-                <a class="text-Gold px-1">conditions d’utilisation</a>
+                <RouterLink to="/Politique-confidentiel" class="text-Gold px-1">conditions d’utilisation</RouterLink>
                 <a class="text-White">et la</a>
-                <a class="text-Gold px-1">politique de confidentialité</a>
+                <RouterLink to="/Politique-confidentiel" class="text-Gold px-1">politique de confidentialité</RouterLink>
                 <a class="text-White">de Stadion</a>
             </p>
         </div>
         <div class="flex flex-col text-center col-span-12 mb-24">
             <h3 class="text-center text-White">Vous avez déjà un compte ?</h3>
-            <h3 class="text-Gold">Connexion</h3>
+            <RouterLink to="/Connection" ><h3 class="text-Gold">Connexion</h3></RouterLink>
         </div>
     </div>
 </template>
