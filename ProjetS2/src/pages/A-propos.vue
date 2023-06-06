@@ -4,7 +4,8 @@ import instagram from '../../public/img/Icones-interface/reseaux/or/instagram.vu
 import discord from '../../public/img/Icones-interface/reseaux/or/discord.vue';
 import linkedin from '../../public/img/Icones-interface/reseaux/or/Linkedin.vue';
 import Lucas from '../../public/img/Images/AllPlatform/Lucas.vue';
-import Vi from '../../public/img/Images/AllPlatform/Vi.vue';
+//l'image de victor ne fonctionne ou/et s'inverse par la mienne, alors méme que "Vi.vue" est bien le bon fichier
+// import Vi from '../../public/img/Images/AllPlatform/Vi.vue';
 </script>
 <template>
     <Hero />
@@ -38,7 +39,7 @@ import Vi from '../../public/img/Images/AllPlatform/Vi.vue';
             </div>
         </div>
         <div class="col-span-5 col-start-8">
-            <Vi class="mx-auto mb-7"/>
+            <img src="../../public/img/Images/AllPlatform/Vi.svg" class="mx-auto mb-7"/>
             <p class="font-bold mb-6">Viktor GHIRARDELLI</p>
             <p class="mb-6">Le designer</p>
             <p class="mb-6">Bio</p>
@@ -51,6 +52,6 @@ import Vi from '../../public/img/Images/AllPlatform/Vi.vue';
             <linkedin/>
         </div>
     </div>
-    <p class="col-span-12 mb-24">On vous souhaite de passer un agréable moment sur notre site internet !</p>
+    <p class="col-span-11 col-start-2 mb-24">On vous souhaite de passer un agréable moment sur notre site internet !</p>
 </div>
 </template>
