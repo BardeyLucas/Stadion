@@ -2,12 +2,6 @@
 import Calendrier from '../../public/img/Icones-interface/icones/Calendrier.vue'
 import Point from '../../public/img/Icones-interface/icones/Point.vue'
 import Coupe from '../../public/img/Icones-interface/icones/Coupe.vue'
-import { pb } from '@/backend';
-import type { TournoisResponse, SectionResponse } from "@/pocketbase-types"
-const props = defineProps<TournoisResponse>()
-const img0 = props.img
-const urlImg0 = img0 && pb.getFileUrl(props, img0, { thumb: '100x200' })
-const url = `/Tournois/${props.id}`
 </script>
 <template>
   <div class="lg:col-span-3 col-span-12 bg-LightGray text-Black rounded-xl lg:grid flex">
