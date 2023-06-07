@@ -1,8 +1,12 @@
 <script setup lang="ts">
-import Hero from '@/components/Hero.vue';
 </script>
 <template>
-    <Hero />
+    <img class="w-full h-[496px] lg:h-[35vw]" src="../../public/img/Images/AllPlatform/Certif.webp"/>
+    <div class="grille">
+        <h1 class="col-span-12 -mt-[398px] text-White text-center">Politique de confidentialité</h1>
+        <h3 class="-mt-52 col-span-12 text-White">Retrouvez toute notre politique de confidentialité.</h3>
+        <h3 class="-mt-40 col-span-12 text-White">Des informations générales, aux cookies jusqu’à la gestion des datas.</h3>
+    </div>
     <div class="grille text-White">
         <h2 class="col-span-12 mt-24">1. Informations générales</h2>
         <p class="col-span-11 col-start-2">Ce document (" Politique de confidentialité ") décrit comment Stadion, peut

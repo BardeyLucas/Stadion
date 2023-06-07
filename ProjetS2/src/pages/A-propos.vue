@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import Hero from '@/components/Hero.vue';
 import instagram from '../../public/img/Icones-interface/reseaux/or/instagram.vue';
 import discord from '../../public/img/Icones-interface/reseaux/or/discord.vue';
 import linkedin from '../../public/img/Icones-interface/reseaux/or/Linkedin.vue';
@@ -8,7 +7,12 @@ import Lucas from '../../public/img/Images/AllPlatform/Lucas.vue';
 // import Vi from '../../public/img/Images/AllPlatform/Vi.vue';
 </script>
 <template>
-    <Hero />
+    <img class="w-full h-[496px] lg:h-[35vw]" src="../../public/img/Images/AllPlatform/Check.webp"/>
+    <div class="grille">
+        <h1 class="col-span-12 -mt-[398px] text-White text-center">Tournois Lol Championship</h1>
+        <h3 class="-mt-52 col-span-12 text-White">Retrouvez tous les tournois disponible en France.</h3>
+        <h3 class="-mt-40 col-span-12 text-White">De League of legends, Super Smash Bros Ultimate, Valorant, Street Fighter à Overwatch 2</h3>
+    </div>
     <div class="grille text-White">
         <h2 class="mt-24 col-span-12">Nos objectifs</h2>
         <p class="mt-12 col-span-11 col-start-2">Nous avons pour objectif de rendre le monde de l’e-sport plus accessible à

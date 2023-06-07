@@ -1,12 +1,16 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import Hero from '@/components/Hero.vue';
 import ClassCardTournois from '@/components/Class-Card-Tournois.vue';
 import Loupe from '../../public/img/Icones-interface/icones/Loupe.vue';
 import Autre from '../../public/img/Icones-interface/icones/Pages.vue';
 </script>
 <template>
-  <Hero />
+    <img class="w-full h-[496px] lg:h-[35vw]" src="../../public/img/Images/AllPlatform/TournoisHero.webp"/>
+    <div class="grille">
+        <h1 class="col-span-12 -mt-[398px] text-White text-center">Tournois Lol Championship</h1>
+        <h3 class="-mt-52 col-span-12 text-White">Retrouvez tous les tournois disponible en France.</h3>
+        <h3 class="-mt-40 col-span-12 text-White">De League of legends, Super Smash Bros Ultimate, Valorant, Street Fighter à Overwatch 2</h3>
+    </div>
   <div class="grille pb-5">
     <div class="col-span-12 text-left leading-10 text-White">
       <button class="w-1/6 h-12 bg-DarkGray">Tous les jeux</button>

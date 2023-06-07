@@ -1,8 +1,12 @@
 <script setup lang='ts'>
-import Hero from '@/components/Hero.vue';
 </script>
 <template>
-    <Hero />
+    <img class="w-full h-[496px] lg:h-[35vw]" src="../../public/img/Images/AllPlatform/Certif.webp"/>
+    <div class="grille">
+        <h1 class="col-span-12 -mt-[398px] text-White text-center">Premium</h1>
+        <h3 class="-mt-52 col-span-12 text-White">Quels sont les avantages de notre Premium ?</h3>
+        <h3 class="-mt-40 col-span-12 text-White">Venez découvrir tous les avantages et exclusivités que le premium offre.</h3>
+    </div>
     <div class="py-24 grille text-White gap-y-12">
         <div class="col-span-7">
             <h3 class="mt-20 mb-9">Profil personnalisés</h3>

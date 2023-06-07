@@ -1,12 +1,16 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import Hero from '@/components/Hero.vue';
 import ClassCardProfil from '@/components/Class-Card-Profil.vue';
 import Loupe from '../../public/img/Icones-interface/icones/Loupe.vue';
 import Autre from '../../public/img/Icones-interface/icones/Pages.vue';
 </script>
 <template>
-    <Hero />
+    <img class="w-full h-[496px] lg:h-[35vw]" src="../../public/img/Images/AllPlatform/Classement.webp"/>
+    <div class="grille">
+        <h1 class="col-span-12 -mt-[398px] text-White text-center">Classement</h1>
+        <h3 class="-mt-52 col-span-12 text-White">Retrouvez tous les joueurs dans les différents classements.</h3>
+        <h3 class="-mt-40 col-span-12 text-White">De League of legends, Super Smash Bros Ultimate, Valorant, Street Fighter à Overwatch 2</h3>
+    </div>
     <div class="grille pb-5">
         <div class="col-span-12 text-left leading-10 text-White">
             <button class="w-1/6 h-12 bg-DarkGray">Tous les jeux</button>
